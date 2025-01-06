@@ -1,0 +1,218 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff8e1; /* Fondo claro con un toque suave de naranja */
+    margin: 0;
+    padding: 0;
+    color: #424242; /* Texto oscuro para buen contraste */
+    line-height: 1.8;
+}
+
+/* Encabezado */
+header {
+    background-color: #f57c00; /* Naranja fuerte para el encabezado */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ffcc80; /* Amarillo suave al pasar el cursor */
+}
+
+/* Contenido principal */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff; /* Fondo blanco para un look limpio */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h1 {
+    color: #e65100; /* Naranja fuerte para el título principal */
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #f57c00; /* Naranja más intenso para subtítulos */
+    font-size: 24px;
+    border-bottom: 3px solid #ffb74d; /* Subrayado con un toque de amarillo */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+section ul {
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
+section ul li {
+    margin: 10px 0;
+    list-style-type: disc;
+}
+
+section ul li {
+    font-size: 16px;
+}
+
+/* Estilo de tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+table thead {
+    background-color: #ff9800; /* Naranja intermedio para la cabecera */
+    color: white;
+}
+
+table th, table td {
+    border: 1px solid #ffcc80; /* Naranja claro para bordes de tabla */
+    padding: 12px 15px;
+    text-align: left;
+    color: #424242; /* Texto oscuro en celdas */
+}
+
+table tr:nth-child(odd) {
+    background-color: #fff3e0; /* Fondo suave en filas impares */
+}
+
+table tr:nth-child(even) {
+    background-color: #ffe0b2; /* Fondo suave en filas pares */
+}
+
+
+footer {
+    background-color:#f57c00 ; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ffcc80; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de botones (si se añaden) */
+button {
+    background-color: #f57c00; /* Naranja fuerte */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e65100; /* Naranja más oscuro en hover */
+}
+
+/* Mejoras de accesibilidad */
+a:focus, button:focus {
+    outline: 3px solid #ffcc80; /* Resalta los enlaces y botones con un borde amarillo al estar enfocados */
+}
+
+p {
+    text-indent: 30px;
+}
+
+img {
+    display: block;          
+    margin: 0 auto;          
+    max-width: 300px;        
+    height: auto;            
+    border-radius: 10px;     
+}
+
+section h3 {
+    color: #f57c00; /* Azul intermedio para los subtítulos */
+    font-size: 20px;
+}
+
+.lista-jerarquica {
+    margin: 20px 0;
+}
+
+/* Estilos para los niveles de la lista */
+.lista-jerarquica ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: disc; /* Puntos redondos negros para el primer nivel */
+}
+
+.lista-jerarquica ul ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: circle; /* Puntos variados para el segundo nivel */
+}
+
+.lista-jerarquica ul ul ul {
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: decimal; /* Números para el tercer nivel */
+}
+
+.lista-jerarquica > ul > li > ul > li > ul > li {
+    list-style-type: decimal; /* Números para el tercer nivel */
+}
+
+.recuadro-importante {
+    border: 2px solid #f57c00; /* Borde naranja para destacar */
+    background-color: #fff3e0; /* Fondo suave para resaltar */
+    padding: 40px; /* Espacio interno entre el contenido y el borde */
+    margin: 10px auto; /* Centra horizontalmente y añade margen arriba/abajo */
+    max-width: auto; /* Establece un ancho máximo del recuadro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.kodetzea {
+    display: block;          
+    margin: 0 auto;          
+    max-width: 600px;        
+    height: 300px;            
+    border-radius: 10px;     
+}

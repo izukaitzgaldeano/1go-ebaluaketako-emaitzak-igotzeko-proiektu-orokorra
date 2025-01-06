@@ -1,0 +1,161 @@
+/* Estilos generales */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f8e9; /* Fondo claro con un toque verde suave */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Texto oscuro para mejor contraste */
+    line-height: 1.8;
+}
+
+header {
+    background-color: #6a1b9a; /* Morado oscuro para el encabezado */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #d1c4e9; /* Lila claro al pasar el cursor */
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto; /* Espacio adicional alrededor del main */
+    background: #ffffff; /* White background for clarity */
+    padding: 80px; /* Más espacio interno para separar el contenido del borde */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h1 {
+    color: #8e24aa; /* Morado claro para los títulos */
+    font-size: 28px;
+    text-align: center;
+}
+
+section h2 {
+    color: #7b1fa2; /* Morado más oscuro para los subtítulos */
+    font-size: 22px;
+    border-bottom: 2px solid #8e24aa;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+section ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+section ul li {
+    margin: 5px 0;
+    list-style: circle;
+}
+
+footer {
+    background-color: #8e24aa; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+footer a {
+    color: #81d4fa; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    background-color: #f3e5f5; /* Fondo lila muy suave */
+    padding: 15px;
+    border-left: 5px solid #8e24aa;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed;
+}
+
+table thead {
+    background-color: #7b1fa2; /* Morado oscuro en la tabla */
+    color: white;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #f1f8e9; /* Alternancia sutil de fondo */
+}
+
+p {
+    text-indent: 30px;
+}
+
+img {
+    display: block;          
+    margin: 0 auto;          
+    max-width: 300px;        
+    height: auto;            
+    border-radius: 10px;     
+}
+.finantziazioa {
+    display: flex; /* Usamos Flexbox para contener la imagen y el texto */
+    align-items: flex-start; /* Alineamos la imagen y el texto al principio */
+    gap: 15px; /* Espacio entre la imagen y el texto */
+    float: right;
+}
+
+.betebehar {
+    display: block;          
+    margin: 0 auto;          
+    max-width: auto;        
+    height: auto;            
+    border-radius: 10px;     
+}
